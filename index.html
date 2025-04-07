@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Dev Django & Analista de Dados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark-purple sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-gold" href="#">
+                <i class="fas fa-code me-2"></i>Portfólio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#django">Django</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#analise">Análise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#outros">Outros</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-purple text-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">Leonardo Xavier</h1>
+                    <h2 class="text-gold mb-4">Desenvolvedor Django & Analista de Dados</h2>
+                    <p class="lead">Crio soluções web escaláveis e transformo dados em insights.</p>
+                    <a href="#contato" class="btn btn-gold btn-lg mt-3">
+                        <i class="fas fa-paper-plane me-2"></i>Contate-me
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/img/foto1.png" alt="Perfil" class="img-fluid rounded-circle shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Quem Sou -->
+    <section id="quem-sou" class="py-5 bg-light-purple">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="/img/foto.png" alt="Sobre Mim" class="img-fluid rounded-circle shadow mb-4 mb-lg-0">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-purple mb-4">
+                        <i class="fas fa-user-circle me-2 text-gold"></i> Quem Sou
+                    </h2>
+                    <p class="lead">Desenvolvedor Full-Stack e Analista de Dados com 5 anos de experiência.</p>
+                    <p>Especializado em criar aplicações web robustas com Django e transformar dados complexos em visualizações acionáveis. Minha abordagem combina habilidades técnicas com visão de negócios.</p>
+                    
+                    <div class="skills mt-4">
+                        <h5 class="text-purple mb-3">Principais Habilidades:</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check-circle text-gold me-2"></i> Django</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-gold me-2"></i> Python</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-gold me-2"></i> Banco de Dados SQL</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check-circle text-gold me-2"></i> Pandas & NumPy</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-gold me-2"></i> Power BI</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                    
+                    <a href="/download/Currículo Leonardo Xavier.pdf" class="btn btn-warning text-white"
+                    download="curriculo.pdf" type="application/pdf"><i class="fas fa-file-download me-2"></i>Baixar Currículo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Django -->
+    <section id="django" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-purple">
+                <i class="fas fa-server me-2 text-gold"></i>Projetos Django
+            </h2>
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="Blog Django">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">Blog com CRUD</h5>
+                            <p class="card-text">Blog completo com autenticação e painel administrativo.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-purple">Django</span>
+                                <span class="badge bg-gold text-dark">PostgreSQL</span>
+                                <span class="badge bg-purple">Bootstrap</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">
+                                <i class="fab fa-github me-1"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="E-commerce">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">Loja Virtual</h5>
+                            <p class="card-text">E-commerce com carrinho de compras e pagamentos.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-purple">Django</span>
+                                <span class="badge bg-gold text-dark">Stripe</span>
+                                <span class="badge bg-purple">JavaScript</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="API REST">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">API REST</h5>
+                            <p class="card-text">API para gestão de tarefas com autenticação JWT.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-gold text-dark">DRF</span>
+                                <span class="badge bg-purple">JWT</span>
+                                <span class="badge bg-gold text-dark">Docker</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">Documentação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Análise de Dados -->
+    <section id="analise" class="py-5 bg-light-purple">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-purple">
+                <i class="fas fa-chart-line me-2 text-gold"></i>Análise de Dados
+            </h2>
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="Dashboard">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">Dashboard de Vendas</h5>
+                            <p class="card-text">Análise interativa de tendências com filtros dinâmicos.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-gold text-dark">Python</span>
+                                <span class="badge bg-purple">Pandas</span>
+                                <span class="badge bg-gold text-dark">Plotly</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">Ver Relatório</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="Previsão">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">Previsão de Stocks</h5>
+                            <p class="card-text">Modelo de machine learning para prever preços de ações.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-purple">Scikit-learn</span>
+                                <span class="badge bg-gold text-dark">Matplotlib</span>
+                                <span class="badge bg-purple">Time Series</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="ETL">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">Pipeline ETL</h5>
+                            <p class="card-text">Processamento de dados de logística com Data Warehouse.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-gold text-dark">SQL</span>
+                                <span class="badge bg-purple">Airflow</span>
+                                <span class="badge bg-gold text-dark">Power BI</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Seção Outros (Fundo claro) -->
+     <section id="outros" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-purple">
+                <i class="fas fa-server me-2 text-gold"></i>Outros Projetos
+            </h2>
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="Blog Django">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">XXX</h5>
+                            <p class="card-text">XXX.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-purple">XXX</span>
+                                <span class="badge bg-gold text-dark">XXX</span>
+                                <span class="badge bg-purple">XXX</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">
+                                <i class="fab fa-github me-1"></i> XXX
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="E-commerce">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">XXX</h5>
+                            <p class="card-text">XXX.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-purple">XXX</span>
+                                <span class="badge bg-gold text-dark">XXX</span>
+                                <span class="badge bg-purple">XXX</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">XXX</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-purple shadow-sm">
+                        <img src="/img/construcao.jpg" class="card-img-top" alt="API REST">
+                        <div class="card-body">
+                            <h5 class="card-title text-purple">XXX</h5>
+                            <p class="card-text">XXX.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-gold text-dark">XXX</span>
+                                <span class="badge bg-purple">XXX</span>
+                                <span class="badge bg-gold text-dark">XXX</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-purple">XXX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato" class="py-5 bg-dark-purple text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-gold">
+                <i class="fas fa-envelope me-2"></i>Contato
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control bg-light-purple border-purple" placeholder="Nome" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control bg-light-purple border-purple" placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control bg-light-purple border-purple" rows="4" placeholder="Mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-gold w-100">
+                                    <i class="fas fa-paper-plane me-1"></i> Enviar
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex flex-column h-100 justify-content-center">
+                                <h4 class="mb-4 text-gold">Redes Sociais</h4>
+                                <a href="https://github.com/leeoxavi" class="text-gold mb-3">
+                                    <i class="fab fa-github me-2"></i> GitHub
+                                </a>
+                                <a href="https://www.linkedin.com/in/leonardoxgarcia/" class="text-gold mb-3">
+                                    <i class="fab fa-linkedin me-2"></i> LinkedIn
+
+                                <a href="/download/Currículo Leonardo Xavier.pdf" class="btn btn-warning text-white"
+                                     download="curriculo.pdf" type="application/pdf"><i class="fas fa-file-download me-2"></i>Baixar Currículo
+                                </a>   
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-darker-purple text-gold text-center py-3">
+        <div class="container">
+            <p class="mb-0">© 2025 Leonardo Xavier. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
